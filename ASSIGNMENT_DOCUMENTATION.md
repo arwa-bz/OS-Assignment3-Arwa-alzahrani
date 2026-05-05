@@ -14,9 +14,9 @@
 > Set sharing to "Anyone with the link can view".
 > Test the link in incognito/private mode before submitting.
 
-**Video Link**: [Paste your personal Gmail Google Drive link here]
+**Video Link**: [https://drive.google.com/file/d/1jb4R6cRMYVzjPv5_OS0s5c_DXjniDcKh/view?usp=drivesdk]
 
-**Video filename**: `[YourStudentID]_Assignment3_Synchronization.mp4`
+**Video filename**: `445052160_Assignment3_Synchronization.mp4`
 
 **Verification**:
 - [ ] Link is accessible (tested in incognito mode)
@@ -344,21 +344,28 @@ CPU scheduling in operating systems, in which several processes vie for CPU time
 
 ## Part 6: GitHub Repository Information
 
-**Repository URL**: 
+**Repository URL**: https://github.com/arwa-bz/OS-Assignment3-Arwa-alzahrani.git
 
-**Number of commits**: 
+**Number of commits**: 11 commits
 
 **Commit messages**: 
-1. 
-2. 
-3. 
-4. 
+1. change my student id to 445052160
+2. add ReentrantLock and semaphore for synchronization
+3. add semaphore and its package for synchronization
+4. protect shared variable name (contextSwitchCount) with lock and finally release the lock
+5. protect shared variable name (completedProcessCount) with lock and finally release the lock
+6. protect shared variable name (totalWaitingTime) with lock and finally release the lock
+7. protect shared variable name (executionLog) with lock and finally release the lock
+8. add cpu semaphore control in process execution then releasebit in finally block
+9. apply semaphore in runToCompletion()
+10. answering the quastions 
+11. Added video demonstration link
 
 ---
 
 ## Summary
 
-**Total time spent on assignment**: 13 hours
+**Total time spent on assignment**: 15 hours
 
 **Key takeaways**: 
 1. Synchronization is necessary to prevent race conditions in multithreaded programs.
